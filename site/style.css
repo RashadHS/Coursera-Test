@@ -14,3 +14,82 @@ header {
 	margin: 25px;
 }
 
+.boxlg {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.box {
+	position: relative;
+	background-color: #b8b8b8;
+	border: 2px solid #000000;
+	padding: 40px 10px 10px 10px;
+	margin: 13px;
+	text-align: left;
+
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 30%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        width: 46%;
+        height: 200px;
+    }
+    .box:last-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.chicken {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #ffc1d5;
+    color: #bb617e;
+    padding: 4px 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.beef {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #a72626;
+    color: #ff9b9b;
+    padding: 4px 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.sushi {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f6f02b;
+    color: #958a03;
+    padding: 4px 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
